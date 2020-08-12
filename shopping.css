@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C8CDDB;
+
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+input {
+    outline: none;
+    border: none;
+
+}
+
+.all {
+    width: 414px;
+    height: 736px;
+    background-color: #F0EEF6;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgb(173, 156, 132) 100%);
+    border-radius: 20px 20px 0 0;
+    height: 5%;
+
+}
+
+header span {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+
+}
+
+header button {
+    font-size: 12px;
+    border: 1px;
+    background: none;
+    color: white;
+}
+
+
+.shopping {
+    height: 85%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.shopping .text {
+    border: none;
+    height: 30px;
+}
+
+.bottom {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 0 0 20px 20px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom button {
+    background: none;
+    color: none;
+    height: 73px;
+    width: 70px;
+
+}
+
+.bottom button:hover {
+    color: aqua;
+}
+
+i {
+    font-size: 40px;
+}
+
+.main {
+    overflow-y: auto;
+}
+
+.main_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    background-color: #ecc5ae;
+
+}
+
+.main_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main_button {
+    border: none;
+    background-color: #ecc5ae;
+
+}
+
+.main_button:hover {
+    color: red;
+}
+
+.fa-trash-alt {
+    font-size: 20px;
+    border: none;
+}
